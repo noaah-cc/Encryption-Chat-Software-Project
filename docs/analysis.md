@@ -1,8 +1,9 @@
-Introduction of the project:
+**Introduction of the project:**
 
 Encryption is a process in which when sending data as plaintext (raw readable message), gets scrambled and turned into an unreadable message send across a communications channel, it is scrambled via an algorithm and a key. The key idea about encryption is that even if a message is intercepted by a third party during the transmission process it cannot be understood or decrypted without the use of the key.
 My project is focused on making an encryption software where I develop my own version of an encryption technique and implement it so I can add a chat feature to a software to allow for at least 2 users to send end to end encrypted messages to each other and can be decoded at the other end. To achieve this I have researched different encryption methods and will use them to make a custom encryption algorithm that I can complete within the timeframe of the NEA
-Key ideas and research notes that go into thinking about the project:
+
+**Key ideas and research notes that go into thinking about the project:**
 Common encryption used in messaging apps
 The cipher WhatsApp uses is called the AES-256 cipher also known as The Core Block Cipher.
 WhatsApp uses a combination of asymmetric and symmetric encryption to make up its end to end encryption, using a public key (only the recipient’s private key can unlock the public key).  The main cryptography process is called Extended Triple DIffle-Hellman form a stable chat session.
@@ -25,7 +26,7 @@ Telegram also offers a service called Secret chats which is their end to end enc
 
  
 
-The Cipher/Encryption I plan on making:
+**The Cipher/Encryption I plan on making:**
 
 AES-256 cipher is a complex encryption cipher using a block cipher that uses a 256 bits to make a key and 128 bits blocks with 14 rounds, it includes substitution, row shifting column mixing, round key addition.
 The cipher I will be using will be a custom made simplified cipher inspired by the AES-256 cipher that is similarly used by WhatsApp and telegram, it is the go to cipher for encryption of text from one place to another.  I will make a similar structure inspired by the AES-256 but I will use 64 bits for the block size, 64 bits for the key 5 rounds and a block chain cipher.
@@ -36,16 +37,18 @@ Can I make the project technical enough to get maximum marks out of a project 	o
 
 
 
-Research behind why do the project in the first place
+**Research behind why do the project in the first place**
 	What makes the project good:
 An encryption chat software is a good NEA project because it allows a range of complex algorithmic skills and features that flow naturally into the project instead of being forcefully added. This project has real world relevance and allows for exploration into topics that are relevant to the course but beyond the specification. An encryption chat software allows for new skills to learn that won’t come up in education but also expands on the coding skills I already have but taking them to an upgraded level. 
-	Is this doable in the time frame:
+
+**Is this doable in the time frame:**
 As an NEA project worth 20% of the A level putting in enough detail and complexity within the given time frame is difficult and if not arranged carefully this project could become far more complex than I have time for, in order to keep on track after a substantial amount of time has passed I will compare my progress to my aims and objectives and make a decision on how much I can complete before the deadline.
 
-Existing Solutions
+**Existing Solutions:**
 Surveys
 Equations
-Key Algorithms:
+
+**Key Algorithms:**
 	
 Software skills
 How technical is this project and can it give the most amount of marks and not cap myself
@@ -56,7 +59,7 @@ Band A skills
 Website Portability
 “My NEA is going to be awesome
 
-Objectives/ Success Criteria
+**Objectives/ Success Criteria**
 Messages are encrypted from one end to the other
 Messages are sent and received with a very small time delay < 50ms per message
 Message is correctly decrypted to the original plaintext with no corruption or changes from the original
@@ -71,12 +74,12 @@ Third  Party Client (Interview)
 Archie Hollins (Student at Hills Road Sixth Form College)
 Questions asked:
 
-Feedback:
+**Feedback:**
 
-Prototype
+**Prototype**
 
 
-Modelling: UML Diagram 
+**Modelling: UML Diagram **
 
  
 
