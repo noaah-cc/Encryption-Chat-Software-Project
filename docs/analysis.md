@@ -14,8 +14,8 @@ A combination of both asymmetric and symmetric is used because the asymmetric es
 (Information Security Stack Exchange) 
 (WhatsApp)
 
-	Telegram
-	The cipher telegram uses is also AES-256 but they also created their own custom 	architecture called MTProto, the AES-256 is also paired with an operation called 	IGE which is essentially a failsafe that if an attacker gets a hold of a bit of data in 	transmission the rest of the message jumbles up and becomes an unreadable 	mess for everyone
+Telegram The cipher telegram uses is also AES-256 but they also created their own custom architecture called MTProto, the AES-256 is also paired with an operation called IGE which is essentially a failsafe that if an attacker gets a hold of a bit of data in transmission the rest of the message jumbles up and becomes an unreadable 	mess for everyone
+	
 Telegram uses Cloud Chats which involve using a client server encryption and the message is decrypted on the server side, this offers a less secure approach to encryption as it doesn’t promise end to end encryption like WhatsApp or other media apps promise. The cloud chats allow for multi device syncing and backups meaning these chats can potentially be stored and re accessed on a cloud server more easily accessible and prone to attacks.
 
 Telegram also offers a service called Secret chats which is their end to end encrypted chat 
@@ -30,9 +30,10 @@ The Cipher/Encryption I plan on making:
 AES-256 cipher is a complex encryption cipher using a block cipher that uses a 256 bits to make a key and 128 bits blocks with 14 rounds, it includes substitution, row shifting column mixing, round key addition.
 The cipher I will be using will be a custom made simplified cipher inspired by the AES-256 cipher that is similarly used by WhatsApp and telegram, it is the go to cipher for encryption of text from one place to another.  I will make a similar structure inspired by the AES-256 but I will use 64 bits for the block size, 64 bits for the key 5 rounds and a block chain cipher.
 	
-	Can I make the project technical enough to get maximum marks out of a project 	or am I limiting myself:
-Creating a custom encryption algorithm with rounds, blocks, IV generation, key uses
-Advanced OOP structure: Inheritance(see uml), Polymorphism: swapping encryption at runtime, different clients. Encapsulation: Hiding keys, Composition: MessageHandler, Abstraction: EncryptionAlgorithm, Recursion: Round function
+Can I make the project technical enough to get maximum marks out of a project 	or am I limiting myself:
+	Creating a custom encryption algorithm with rounds, blocks, IV generation, key uses
+	Advanced OOP structure: Inheritance(see uml), Polymorphism: swapping encryption at runtime, different clients. Encapsulation: Hiding keys, Composition: MessageHandler, 	Abstraction: EncryptionAlgorithm, Recursion: Round function
+
 
 
 Research behind why do the project in the first place
@@ -41,12 +42,12 @@ An encryption chat software is a good NEA project because it allows a range of c
 	Is this doable in the time frame:
 As an NEA project worth 20% of the A level putting in enough detail and complexity within the given time frame is difficult and if not arranged carefully this project could become far more complex than I have time for, in order to keep on track after a substantial amount of time has passed I will compare my progress to my aims and objectives and make a decision on how much I can complete before the deadline.
 
-	Existing Solutions
-	Surveys
-	Equations
-	Key Algorithms:
+Existing Solutions
+Surveys
+Equations
+Key Algorithms:
 	
-	Software skills
+Software skills
 How technical is this project and can it give the most amount of marks and not cap myself
 Key algorithmic skills involved
 Databases
