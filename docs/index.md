@@ -1,10 +1,2 @@
 index.md
-   analysis.md
-   design.md
-   development.md
-   testing.md
-   evaluation.md
-   assets/
-       images/
-       diagrams/
-       screenshots/
+
