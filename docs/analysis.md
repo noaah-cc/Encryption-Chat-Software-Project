@@ -4,6 +4,7 @@ Encryption is a process in which when sending data as plaintext (raw readable me
 My project is focused on making an encryption software where I develop my own version of an encryption technique and implement it so I can add a chat feature to a software to allow for at least 2 users to send end to end encrypted messages to each other and can be decoded at the other end. To achieve this I have researched different encryption methods and will use them to make a custom encryption algorithm that I can complete within the timeframe of the NEA
 
 **Key ideas and research notes that go into thinking about the project:**
+
 Common encryption used in messaging apps
 The cipher WhatsApp uses is called the AES-256 cipher also known as The Core Block Cipher.
 WhatsApp uses a combination of asymmetric and symmetric encryption to make up its end to end encryption, using a public key (only the recipient’s private key can unlock the public key).  The main cryptography process is called Extended Triple DIffle-Hellman form a stable chat session.
